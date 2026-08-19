@@ -1,11 +1,11 @@
-# Remediation Enablement Framework — Reference Prototype
+# Remediation Enablement Framework - Reference Prototype
 
 A platform-neutral proof of concept for improving what happens **after a security assessment has identified a finding**.
 
 The prototype demonstrates two deliberately narrow workflows:
 
-1. **Structured Risk Acceptance** — records a client-owned decision to tolerate an unresolved finding without presenting the vulnerability as remediated or closed.
-2. **Retest Readiness and Evidence** — helps a remediation owner describe what changed, identify affected scope and exceptions, and provide useful supporting context before independent technical validation.
+1. **Structured Risk Acceptance** - records a client-owned decision to tolerate an unresolved finding without presenting the vulnerability as remediated or closed.
+2. **Retest Readiness and Evidence** - helps a remediation owner describe what changed, identify affected scope and exceptions, and provide useful supporting context before independent technical validation.
 
 > **Fictional data only.** This repository is a portfolio and workflow-design prototype. It does not perform security testing, make risk decisions, store real evidence, or verify remediation automatically.
 
