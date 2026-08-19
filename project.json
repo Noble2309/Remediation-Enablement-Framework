@@ -1,0 +1,9 @@
+{
+  "name": "remediation-enablement-prototype",
+  "version": "1.0.5",
+  "type": "static-web-prototype",
+  "entry": "index.html",
+  "hosting": "Cloudflare Pages compatible",
+  "buildCommand": null,
+  "outputDirectory": "."
+}
