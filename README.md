@@ -275,16 +275,23 @@ remediation-enablement-prototype/
 ├── README.md
 ├── project.json
 ├── css/
-│   └── styles.css
+│   ├── styles-base.css
+│   └── styles-components.css
 ├── js/
-│   ├── app.js
 │   ├── data.js
-│   └── state.js
+│   ├── state.js
+│   ├── app-core-base.js
+│   ├── app-core-views.js
+│   ├── app-acceptance.js
+│   ├── app-retest.js
+│   └── app-ui.js
 └── docs/
     ├── project-overview.pdf
     ├── risk-acceptance-framework.pdf
     └── retest-readiness-framework.pdf
 ```
+
+The browser assets are split into small, dependency-free files for readability and straightforward static hosting. No build step is required.
 
 ---
 
