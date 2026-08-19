@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Platform-neutral remediation enablement prototype demonstrating structured risk acceptance and retest readiness workflows for security findings.">
+  <meta name="color-scheme" content="light dark">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'">
+  <title>Remediation Enablement Prototype</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <div class="app-shell">
+    <header class="topbar">
+      <div class="topbar-inner">
+        <a class="brand" href="#/overview" aria-label="Remediation Enablement home">
+          <span class="brand-mark" aria-hidden="true">RE</span>
+          <span>
+            <strong>Remediation Enablement</strong>
+            <small>Reference prototype</small>
+          </span>
+        </a>
+        <nav class="main-nav" aria-label="Primary navigation">
+          <a href="#/overview" data-nav="overview">Overview</a>
+          <a href="#/findings" data-nav="findings">Findings</a>
+          <a href="#/documentation" data-nav="documentation">Documentation</a>
+        </nav>
+        <button class="button button-ghost button-small" id="reset-demo" type="button">Reset demo</button>
+      </div>
+    </header>
+
+    <div class="demo-banner" role="note">
+      <div class="demo-banner-inner">
+        <span class="demo-pill">DEMO</span>
+        <span>Fictional data only. This prototype records workflow states; it does not perform security testing or make risk decisions.</span>
+      </div>
+    </div>
+
+    <main id="main-content" tabindex="-1"></main>
+
+    <footer class="site-footer">
+      <div class="content-width footer-inner">
+        <span>Remediation Enablement Framework · Prototype v1.0.5</span>
+        <span>Platform-neutral · No backend · No external services</span>
+      </div>
+    </footer>
+  </div>
+
+  <div id="toast-region" class="toast-region" aria-live="polite" aria-atomic="true"></div>
+
+  <script src="js/data.js" defer></script>
+  <script src="js/state.js" defer></script>
+  <script src="js/app.js" defer></script>
+</body>
+</html>
