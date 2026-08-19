@@ -11,7 +11,8 @@ The prototype demonstrates two deliberately narrow workflows:
 
 **Current build:** v1.0.5  
 **Project type:** Static reference prototype  
-**Author / framework designer:** Daniel Jones
+**Author / framework designer:** Daniel Jones  
+**Live Demo:** https://remediation-enablement-framework.danielmark1002.workers.dev/
 
 ---
 
