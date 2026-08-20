@@ -322,6 +322,16 @@ The project is intended to demonstrate security workflow design, remediation-pro
 
 ---
 
+## Copyright
+
+**Copyright © 2026 Daniel Jones. All rights reserved.**
+
+This project is publicly available for portfolio demonstration and professional review. No open-source licence is granted. Except where permitted by applicable law or GitHub's platform functionality, the source code, documentation, framework materials and other original content may not be reproduced, redistributed, modified or used to create derivative works without permission.
+
+See [COPYRIGHT.md](COPYRIGHT.md) for the full notice.
+
+---
+
 ## Disclaimer
 
 This repository is a fictional portfolio demonstration. It does not constitute penetration-testing results, legal advice, compliance advice, risk acceptance on behalf of any organisation, or evidence that a security weakness has been remediated.
